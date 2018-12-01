@@ -1,3 +1,5 @@
+var loginelems = require('../PageElements/loginElements.json');
+var ldata = require('../JsonDataFiles/loginPageData.json');
 describe('Name of the group', () => 
 {
     beforeEach(() => {
@@ -10,7 +12,8 @@ describe('Name of the group', () =>
     });
 
     it('should behave...', () => {
-        browser.driver.findElement(by.name('email')).sendKeys('Jane');
+        browser.driver.findElement(by.name(loginelems.userNameField)).sendKeys(ldata.Credentials.username);
+        browser.driver.findElement(by.name(loginelems.passwordField)).sendKeys(ldata.Credentials.password);
     });
 
 

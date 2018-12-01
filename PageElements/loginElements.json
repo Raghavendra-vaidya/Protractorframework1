@@ -1,4 +1,4 @@
 {
     "userNameField":"//input[@id='email']",
-    "password":"//input[@type='password']"
+    "passwordField":"//input[@type='password']"
 }

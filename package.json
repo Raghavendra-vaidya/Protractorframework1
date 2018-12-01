@@ -1,0 +1,28 @@
+{
+  "name": "protractortest",
+  "version": "1.0.0",
+  "description": "framework for protractorJs Test Automation",
+  "main": "app.js",
+  "author": "Raghavendra vaidya <rkvaidya58@gmail.com>",
+  "devDependencies": {
+    "protractor": "~5.4.0",
+    "jasmine-reporters": "~2.2.0",
+    "protractor-html-screenshot-reporter": "~0.0.21",
+    "protractor-beautiful-reporter": "1.2.5",
+    "protractor-jasmine2-html-reporter": "0.0.7",
+    "protractor-jasmine2-screenshot-reporter": "0.5.0",
+    "selenium-webdriver": "^2.47.1",
+    "webdriver-manager": "^10.3.0",
+    "winston": "~1.0.1"
+  },
+  "dependencies": {
+    "nodemailer": "^0.7.0",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "path": "^0.12.7",
+    "promise": "^7.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC"
+}
